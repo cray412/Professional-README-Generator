@@ -1,6 +1,6 @@
 
-  # a 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Professional README Generator 
+  
 
 ## Table of Contents
 *   [Project Description](#project-description)
@@ -12,17 +12,17 @@
 
 
   ## Project Description
-  a
+  This is a Professional README Generator which creates a readme file based on user input in the console using node.js
   ### Installation
-  a
+  Download files or clone repository. Open in VS Code or other editor and open intergrated terminal. Respond to prompts and create file.
   ### Usage
-  a
+  After creating file, find "README.md" in current directory and copy to your own project directory.
   ## Contribute
-  a
+  This project is complete and does not need contributors.
   ### Test Instructions
-  a
+  To test, follow installations and usage instructions.
   ## License
-  ### MIT
-  [MIT](https://choosealicense.com/licenses/MIT)
+  ### None
+  [None](https://choosealicense.com/licenses/None)
     
 

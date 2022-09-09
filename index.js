@@ -40,7 +40,7 @@ const questions = [
         type: 'list',
         message: 'PLease choose the appropriate license for your project:',
         name: 'license',
-        choices: ['Apache', 'Boost', 'BSD', 'Creative Commons', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Open Data Commons', 'Perl', 'SIL', 'Zlib', 'None']
+        choices: ['None', 'Apache', 'Boost', 'BSD', 'Creative Commons', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Open Data Commons', 'Perl', 'SIL', 'Zlib']
     },
 
 ];
@@ -49,7 +49,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFile(path.join(proces.cwd(), fileName), data);
+    return fs.writeFile(path.join(process.cwd(), fileName), data);
 }
 
 // TODO: Create a function to initialize app
